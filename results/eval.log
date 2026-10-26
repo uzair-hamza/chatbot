@@ -1,0 +1,31 @@
+Total patterns: 142
+Total intents: 18
+Train size: 113, Test size: 29
+Split: stratified 80/20, random_state=42
+
+Accuracy: 0.6897
+
+                   precision    recall  f1-score   support
+
+       admissions       0.33      0.50      0.40         2
+campus_facilities       1.00      1.00      1.00         1
+     contact_help       0.00      0.00      0.00         1
+      cse_courses       0.67      1.00      0.80         2
+        documents       1.00      1.00      1.00         1
+    exams_results       0.50      0.50      0.50         2
+             fees       1.00      0.50      0.67         2
+          goodbye       1.00      0.50      0.67         2
+         greeting       0.33      1.00      0.50         2
+           hostel       1.00      1.00      1.00         2
+      internships       0.00      0.00      0.00         1
+          library       1.00      1.00      1.00         2
+   navttc_courses       1.00      1.00      1.00         2
+             ncbc       0.50      1.00      0.67         1
+     scholarships       1.00      0.50      0.67         2
+ sports_societies       1.00      1.00      1.00         1
+        timetable       1.00      0.50      0.67         2
+        transport       0.00      0.00      0.00         1
+
+         accuracy                           0.69        29
+        macro avg       0.69      0.67      0.64        29
+     weighted avg       0.73      0.69      0.67        29
